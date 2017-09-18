@@ -14,9 +14,9 @@ def errors(error):
 def main():
 	return template('index.html')
 
-@route("/leaderboards")
-def leaderboards():
-	return template('leaderboards.html')
+@route("/mac")
+def mac():
+	return template('mac.html')
 
 @route("/heroes")
 def heroes():
